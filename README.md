@@ -1,2 +1,2 @@
-# Zrum-
+# Zrum-gray
 Gray zrum layout
