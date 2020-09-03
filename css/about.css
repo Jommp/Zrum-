@@ -1,0 +1,50 @@
+/* <---------- header section ----------> */
+
+.banner-img img{
+   height: 350px;
+}
+
+/* <---------- history section ----------> */
+#history{
+   margin-bottom: 8rem;
+}
+#history .section-header h1{
+   font-size: 1.2rem;
+   font-weight: 800;
+}
+.history-text p{
+   color: #727176 !important;
+   font-size: .9rem;
+}
+.small-img{
+   right: 0;
+   top: 140px;
+}
+
+/* <---------- team section ----------> */
+
+#team .section-header h2 {
+   font-size: 1.15rem;
+}
+.team-container{
+   overflow: auto;
+}
+.member-box{
+   width: 155px;
+}
+.member-box h2{
+   font-size: .85rem;
+   font-weight: bold;
+   margin-top: 1rem;
+}
+.member-box p{
+   color: #727176 !important;
+   font-size: .85rem;
+}
+
+/* <---------- recommendationsNewsletter section ----------> */
+
+/* <---------- footer section ----------> */
+footer{
+   box-shadow: 0 3px 6px 0 rgba(185, 185, 185, 0.39);
+}

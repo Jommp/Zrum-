@@ -1,0 +1,56 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   .language-currency select {
+      height: 35px;
+      width: 76px;
+   }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   .icon-small{
+      display: none;
+   }
+   .icon-md{
+      display: inline;
+   }
+
+   .title-others{
+      background-color: #30ba96;
+   }
+   .card{
+      height: 158px;
+   }
+   .card-img{
+      height: 100%;
+   }
+   .newsletter-container form input{
+      width: 75%;
+   }
+   .newsletter-container form button{
+      width: 20%;
+   }
+
+   #sponsors {
+      max-height: 63px;
+      min-height: 63px;
+   }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   .navbar-nav .nav-item {
+      padding-left: 2rem;
+   }
+
+   footer .social-net-icons {
+      width: 180px;
+   }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   .navbar-nav .nav-item {
+      padding-left: 3rem;
+   }
+}

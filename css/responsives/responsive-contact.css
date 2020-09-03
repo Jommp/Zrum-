@@ -1,0 +1,71 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+   /* <---------- promotions section ----------> */
+
+   #promotions .container{
+      height: 10vh;
+   }
+   .promotion-img img{
+      width: 100%;
+   }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+   /* <---------- contactForm section ----------> */
+
+   #contactForm form button {
+      width: 60%;
+   }
+
+   /* <---------- promotions section ----------> */
+
+   .promotion-md-title{
+      font-size: 1.4rem;
+      font-weight: bold;
+   }
+   .figure-box{
+      height: 85%;
+   }
+   .fig-promotion{
+      height: 100%;
+   }
+   .fig-promotion img{
+      height: 100%;
+      width: 100%;
+   }
+   .fig-promotion figcaption{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+   }
+   .promotion-text{
+      opacity: 0.85;
+   }
+   .promotion-title{
+      font-size: .75em;
+   }
+   .discount,
+   .total-price{
+      font-size: 1.38em;
+   }
+   .list-price{
+      font-size: .77em;
+   }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+   .fig-promotion,
+   .figure-box{
+      height: 328px;
+   }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+}

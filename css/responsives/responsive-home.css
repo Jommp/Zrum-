@@ -1,0 +1,66 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+   /* <---------- exclusivePacks section ----------> */ 
+
+   .pack-box img{
+      max-height: 167px;
+   }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+   /* <---------- benefits section ----------> */
+   
+   .benefit-box{
+      width: 25%;
+      height: 95px;
+   }
+   .benefit-center{
+      border-left: 0.5px solid white;;
+   }
+
+   /* <---------- exclusivePacks section ----------> */
+
+   .fig-exclusive img{
+      min-height: 340px;
+   }
+
+   /* <---------- newExperiences section ----------> */
+
+   .fig-elem{
+      height: 240px !important;
+   }
+
+   /* <---------- recommendationsNewsletter section ----------> */
+
+   .news-container p,
+   .news-container a{
+      color: #000 !important;
+   }
+   .comment-container h4,
+   .comment-container p {
+      color: #000 !important;
+   }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+   /* <---------- exclusivePacks section ----------> */
+
+   .fig-exclusive img{
+      min-height: 380px;
+   }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+   /* <---------- exclusivePacks section ----------> */
+
+   .fig-exclusive img{
+      height: 382px;
+   }
+}

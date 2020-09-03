@@ -1,0 +1,60 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   #history{
+      margin-bottom: 6rem;
+   }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   /* <---------- history section ----------> */
+
+   .small-img{
+      right: 120px;
+      top: 165px;
+   }
+
+   /* <---------- team section ----------> */
+   
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+/* <---------- history section ----------> */
+
+#history{
+   margin-bottom: 2rem;
+}
+.small-img{
+   right: 10px;
+   top: 165px;
+}
+
+/* <---------- team section ----------> */
+
+#team .section-header{
+   width: 80%;
+}
+
+/* <---------- recommendationsNewsletter section ----------> */
+
+.news-container p,
+.news-container a{
+   color: #000 !important;
+}
+.comment-container h4,
+.comment-container p {
+   color: #000 !important;
+}
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+/* <---------- team section ----------> */
+
+#team .section-header{
+   width: 85%;
+}
+
+}

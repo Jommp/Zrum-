@@ -1,0 +1,73 @@
+/* <---------- contactForm section ----------> */
+
+#contactForm form input,
+#contactForm form label,
+#contactForm form textarea {
+   color: #727176 !important;
+   font-size: .8rem;
+}
+#contactForm form input {
+   border: 0;
+   border-radius: 0;
+   border-bottom: solid 1px #f08484;
+}
+#contactForm form textarea {
+   border-radius: 0;
+   border: solid 1px #f08484;
+   resize: none;
+}
+#contactForm form button {
+   font-size: 1rem;
+   width: 80%;
+}
+
+/* <---------- promotions section ----------> */
+
+.promotion-container{
+   height: 80px;
+}
+.promotion-text {
+   background-color: #f1f173;
+}
+.promotion-title p,
+.promotion-title span{
+ font-size: .9em;
+ font-weight: bold;
+}
+.discount{
+   font-size: 1.65em;
+   font-weight: bold;
+}
+.list-price{
+   color: red !important;
+   font-size: .7em;
+   font-weight: bold;
+   text-decoration: line-through;
+}
+.total-price{
+   font-size: 1.1em;
+   font-weight: bold;
+}
+
+/* <---------- information section ----------> */
+
+.info-box {
+   border-radius: 5px;
+   color: #fff;
+   text-align: center;
+   height: 100px;
+   width: 100%;
+}
+.info-box h3 {
+   border-bottom: 1px solid #30ba96;
+
+   font-size: 1rem;
+   font-weight: bold;
+   line-height: 1.25;
+}
+.info-box p {
+   color: #727176 !important;
+   font-size: .8rem;
+   line-height: 1.25;
+   text-align: center;
+}

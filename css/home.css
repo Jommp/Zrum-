@@ -1,0 +1,126 @@
+/* <---------- header section ----------> */
+
+.banner-img img {
+   height: 500px;
+}
+.banner-img {
+   overflow: hidden;
+}
+
+/* <---------- benefits section ----------> */
+
+.benefits-container {
+   display: flex;
+   flex-flow: row wrap;
+   align-content: center;
+   justify-content: center;
+}
+.benefit-box {
+   background-color: #30ba96;
+   border: 0.5px solid white;
+   height: 60px;
+   width: 50%;
+
+   display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   justify-content: center;
+}
+.benefit-left {
+   border-left: 0px;
+}
+.benefit-right {
+   border-right: 0px;
+}
+.benefit-box a {
+   color: white !important;
+   font-size: 0.9rem;
+   font-weight: 500;
+}
+
+/* <---------- exclusivePacks section ----------> */
+
+#exclusivePacks h2 {
+   color: #727176 !important;
+   font-size: 1.15rem;
+   font-weight: bold;
+}
+#exclusivePacks p{
+   color: #30ba96 !important;
+   font-size: .85rem;
+}
+.fig-exclusive img{
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.fig-exclusive .exclusive-quote{
+   background-color: #f1f173;
+   text-align: left;
+   position: absolute;
+   top: 0;
+   max-width: 80%;
+}
+.exclusive-quote span {
+   font-size: 1.35rem;
+   font-weight: bold;
+}
+.pack-box img{
+   min-height: 136px;
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+.pack-title{
+   margin-top: .5rem;
+}
+
+/* <---------- newExperiences section ----------> */
+
+.fig-elem > .top-quote{
+   text-align: left;
+   padding: 1rem 2.5rem 1rem 1rem;
+   position: absolute;
+   top: 0;
+   max-width: 80%;
+}
+.top-quote > h2{
+   color: #fff !important;
+   font-size: 1.25rem;
+   font-weight: 600;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.53);
+}
+.fig-elem > .bottom-quote{
+   color: #fff;
+   text-align: left;
+   padding: 0 0 .9rem .8rem;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+.bottom-quote > p {
+   color: #fff !important;
+   font-size: .9rem;
+   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.53);
+}
+.fig-img-overlay{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+.fig-img-overlay:hover{
+   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* <---------- recommendationsNewsletter section ----------> */
+
+.recommendations-title{
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+   background-color: #f9a686;
+}
+.recommendations-title h1{
+   font-size: 1.4rem;
+}
+#carouselRecomendations .carousel-item h4,
+#carouselRecomendations .carousel-item p{
+   color: #707070 !important;
+   font-size: .8rem;
+}
